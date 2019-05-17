@@ -1,0 +1,18 @@
+[package]
+name = "github-data-fetch"
+version = "0.1.0"
+authors = ["Robin Gloster <mail@glob.in>"]
+
+[dependencies]
+clap = "2"
+futures = "0.1"
+hyper = "0.12"
+rmp-serde = "0.13"
+serde = "1"
+stream_throttle = "0.2"
+tokio-core = "0.1"
+#hubcaps = "0.5"
+
+[dependencies.hubcaps]
+git = "https://github.com/mayflower/hubcaps"
+branch = "serializable"
